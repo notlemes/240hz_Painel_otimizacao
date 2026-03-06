@@ -1,0 +1,50 @@
+<Window x:Class="Painel240hz.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="240Hz Login"
+        WindowState="Maximized"
+        Background="#0b0b0b"
+        WindowStyle="None">
+
+    <Grid>
+
+        <StackPanel VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Width="400">
+
+            <TextBlock Text="240Hz Optimizer"
+                       Foreground="#ff1a1a"
+                       FontSize="40"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"/>
+
+            <TextBlock Text="Digite sua licença"
+                       Foreground="White"
+                       FontSize="18"
+                       Margin="0,20"
+                       HorizontalAlignment="Center"/>
+
+            <TextBox x:Name="txtKey"
+                     Height="45"
+                     FontSize="16"
+                     Background="#151515"
+                     Foreground="White"
+                     BorderBrush="#ff1a1a"
+                     BorderThickness="1"
+                     Margin="0,10"/>
+
+            <Button Content="Validar Licença"
+                    Height="45"
+                    Margin="0,15"
+                    Click="ValidateKey_Click"/>
+
+            <TextBlock x:Name="txtStatus"
+                       Foreground="White"
+                       HorizontalAlignment="Center"
+                       Margin="0,10"/>
+
+        </StackPanel>
+
+    </Grid>
+
+</Window>

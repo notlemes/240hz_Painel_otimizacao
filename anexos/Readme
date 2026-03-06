@@ -1,0 +1,45 @@
+⚠️ AVISO IMPORTANTE
+Sempre execute os scripts como Administrador (Botão direito > Executar como Administrador). Alguns comandos de registro e sistema não funcionam sem essa permissão.
+
+📂 Conteúdo do Kit
+1. 01_CRIAR_PONTO_RESTAURACAO.bat
+Uso: Única vez (antes de começar).
+
+O que faz: Cria uma imagem de segurança do seu Windows. Se você não gostar das alterações ou algo bugar, você pode voltar no tempo.
+
+2. 02_SUPER_FPS_BOOST.bat
+Uso: Única vez (ou após atualizações do Windows).
+
+O que faz:
+
+Ajusta prioridade de GPU para o processo de jogos.
+
+Desativa Telemetria (espiões do Windows que consomem CPU).
+
+Otimiza o tempo de resposta do Mouse e Teclado.
+
+Ajusta o Timer do Sistema para evitar travadinhas (Stutters).
+
+3. 03_FIX_REDE_FIVEM.bat
+Uso: Quando sentir lag, desync ou demora para carregar mapas.
+
+O que faz: Limpa o cache de DNS e reseta os protocolos de internet (Winsock/IP). Melhora a estabilidade da conexão com o servidor.
+
+4. 04_JOGAR_FIVEM.bat
+Uso: SEMPRE que for abrir o jogo.
+
+O que faz: * Limpa caches temporários (NUI, Shaders, Logs).
+
+Libera a memória RAM que o Windows está "segurando" sem necessidade.
+
+Inicia o FiveM de forma limpa.
+
+🛠️ Ordem Recomendada de Execução
+Rode o 01_CRIAR_PONTO_RESTAURACAO.bat e espere a mensagem de sucesso.
+
+Rode o 02_SUPER_FPS_BOOST.bat e reinicie o seu computador.
+
+No dia a dia, esqueça o atalho padrão do FiveM e use apenas o 04_JOGAR_FIVEM.bat
+
+📝 Como editar os scripts
+Caso o caminho do seu FiveM seja diferente do padrão (AppData\Local\FiveM), clique com o botão direito no arquivo .bat, selecione Editar e altere o caminho na linha start
