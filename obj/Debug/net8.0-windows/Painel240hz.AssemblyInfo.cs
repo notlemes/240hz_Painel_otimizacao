@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Painel240hz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad4cd8cfc84c8b7d46c62b765c8c6d25f31e0590")]
 [assembly: System.Reflection.AssemblyProductAttribute("Painel240hz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Painel240hz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
