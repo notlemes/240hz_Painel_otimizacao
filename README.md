@@ -1,0 +1,1 @@
+# 240hz_Painel_otimizacao
